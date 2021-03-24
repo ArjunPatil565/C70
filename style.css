@@ -1,36 +1,40 @@
-#contact iframe
-{
+#contact iframe {
     width: 100%;
 }
-.contact_1 h3
-{
+
+.contact_1 h3 {
     display: inline;
 }
-.contact_1 a
-{
+
+.contact_1 a {
     text-shadow: none;
 }
- 
-input
-{
+
+input {
     background: grey
 }
-.travel_maindiv{
+
+.travel_maindiv {
     border: 1px solid;
     padding-left: 0px;
     padding-right: 0px;
     float: none;
 }
-.travel_maindiv img{
+
+.travel_maindiv img {
     width: 100%;
 }
-.travel_maindiv hr{
+
+.travel_maindiv hr {
     width: 230px
 }
-.travel_maindiv p,.travel_maindiv h5{
+
+.travel_maindiv p,
+.travel_maindiv h5 {
     margin-left: 20px;
 }
-.movie_head{
+
+.movie_head {
     font-size: 20px;
     padding: 6px 22px;
     border-radius: 10px;
@@ -38,17 +42,35 @@ input
     width: 100%;
     display: inline-block;
 }
-.movie_head i{
+
+.movie_head i {
     float: right;
 }
-.movie_text span{
+
+.movie_text span {
     color: blueviolet
 }
-.environment_li{
+
+.environment_li {
     margin-top: 13px;
 }
-.environment_li h4{
+
+.environment_li h4 {
     border-bottom: 1px solid white;
     padding: 8px;
 }
-    
+.book{
+    cursor:pointer;
+}
+.book hr{
+    margin-bottom: 10px;
+}
+.modal content{
+    margin-top: 100px;
+}
+.img_modal{
+    display: inline-block;
+}
+.p_modal{
+    margin-top: 10px;
+}
